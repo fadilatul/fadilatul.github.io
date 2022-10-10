@@ -1,4 +1,4 @@
-/design table 1/
+/*design table 1*/
 .table1 {
     font-family: sans-serif;
     color: #6e1010;
@@ -42,3 +42,32 @@ body {
     font-size: 100%;
     padding: 30px;
 }
+
+/* navbar */
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(198, 81, 144);
+  }
+  
+.navbar li {
+    float: left;
+  }
+
+.active {
+    background-color: #e55cf2;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: rgb(8, 107, 14);
+  }
